@@ -1,0 +1,832 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	box-sizing:border-box;
+    font-family: "Poppins, sans-serif";
+}
+
+.bg-contact{
+	padding:50px 0px;
+}
+
+.co-form{
+    padding-left:70px;
+}
+
+.co-form h2{
+	font-size: 36px;
+    font-weight: 700;
+    line-height: 1.5;
+    /*margin: 0 auto;*/
+    text-transform:capitalize;
+   	margin-bottom:20px;
+}
+
+.contact-name{
+	width:100%;
+}
+.contact-name input{
+    width: 100%;
+    height: 55px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #F6F7F9;
+    border: none;
+    margin: 12px 0px;
+    font-size: 20px;
+    font-weight:600;
+    text-transform: capitalize;
+    padding: 0px 18px;
+}
+.contact-name input::placeholder{
+	color:black;
+}
+.contact-name input:focus{
+	outline:none;
+	border:none;
+    background:white;
+    border:2px solid #ffba33;
+}
+
+
+
+.contact-name textarea {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    background-color: #F6F7F9;
+    border: none;
+    margin: 12px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 8px 18px;
+}
+.contact-name textarea::placeholder{
+	color:black;
+}
+.contact-name textarea:focus{
+	outline:none;
+	border:none;
+    background:white;
+    border:2px solid #000;
+}
+
+
+.contact-btn button{
+    width:100%;
+    height: 50px;
+    border: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition:all 0.5s ease;
+    background-color:black;
+    color:white;
+}
+.contact-btn button:focus{
+	border:none;
+	outline:none;
+}
+.contact-btn span{
+    margin-left:12px;
+}
+.contact-btn button:hover{
+    background-color:#ffba33;
+    color:black;
+    box-shadow:3px 3px 15px rgb(0 0 0 / 30%);
+}
+
+
+.contact-box{
+	padding:65px 30px 65px 30px;
+    border-radius: 5px;
+    background-color: rgb(255 186 51 / 40%);
+    background-color: #ffbb33;
+}
+
+
+.contact-heading span{
+	font-size:18px;
+	font-weight:600;
+    text-transform:capitalize;
+}
+.contact-heading h2 {
+    font-weight: 700;
+    font-size: 33px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    margin-top:10px;
+    line-height:1.5;
+}
+
+
+.contact-info{
+	display:flex;
+	margin-bottom:25px;
+}
+
+.contact-icon{
+    margin-right: 23px;
+    background-color: white;
+    border-radius: 50%;
+    height: 40px;
+}
+.contact-icon i{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    font-size:22px;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffba33;
+	
+}
+
+.contact-name h5{
+	font-size:18px;
+    font-weight:700;
+    text-transform: capitalize;
+    margin-bottom:8px;
+
+}
+
+.contact-name h6 a{
+	text-transform:capitalize;
+	text-decoration:none;
+	color:black;
+}
+.co-map{
+    width:100%;
+}
+.co-map iframe{
+    width:100%;
+}
+
+
+/*.....................registeration form page css.....................*/
+
+
+
+
+.bg-register{
+    padding:50px 0px;
+}
+.re-form h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform:capitalize;
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.re-form{
+    width:70%;
+    padding:50px 35px;
+    margin: 7% auto;
+    box-shadow:0px 0px 30px 2px rgb(0 0 0 / 40%);
+    border-top: 10px solid;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.re-name{
+    position:relative;
+}
+.re-name input{
+    width: 100%;
+    height: 55px;
+    border-radius:5px;
+    background-color: #F6F7F9;
+    border: none;
+    margin:16px 0px;
+    font-size: 20px;
+    font-weight:600;
+    text-transform: capitalize;
+    padding: 0px 18px;
+    position:relative;
+}
+.re-name input:focus{
+    outline:none;
+    border:none;
+    background-color:white;
+    border:2px solid #ffba33;
+}
+
+.re-name input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.re-name span{
+    position: absolute;
+    right: 5%;
+    top: 33%;
+    color:#ffba33;
+}
+.re-check{
+    margin:16px 0px;
+}
+.re-check label{
+    font-weight:600;
+    font-size:18px;
+    text-transform:capitalize;
+    padding-left: 8px;
+}
+.re-btn-flex{
+    display:flex;
+    justify-content:end;
+    margin:20px 0px;
+}
+.re-btn button{
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    transition:all 0.5s ease;
+    background-color:#ffba33;
+    color:white;
+    position:relative;
+    margin:0px 14px;
+}
+.re-btn button:after{
+  content:"";
+  position :absolute;
+  width:24px;
+  height:24px;
+  top:0px;
+  left:0px;
+  border-top:2px solid #ffba33;
+  border-left:2px solid #ffba33;
+  transition:all 0.25s;
+}
+
+.re-btn button:hover:before ,.re-btn button:hover:after{
+  width:100%;
+  height:100%;
+}
+.re-btn button:hover{
+    background-color: unset;
+    color: black;
+}
+.re-btn button:before{
+  content:"";
+  position :absolute;
+  width:24px;
+  height:24px;
+  bottom:0px;
+  right:0px;
+  border-bottom:2px solid #ffba33;
+  border-right:2px solid #ffba33;
+  transition:all 0.30s;
+}
+
+.re-btn button:focus{
+    outline:none;
+}
+.re-btn:nth-child(2) button{
+    background-color:black;
+}
+.re-btn:nth-child(2) button:hover{
+    background-color:unset;
+}
+.re-btn:nth-child(2) button:after{
+  border-top:2px solid black;
+  border-left:2px solid black;
+}
+.re-btn:nth-child(2) button:before{
+  border-bottom:2px solid black;
+  border-right:2px solid black;
+}
+
+
+.re-check input{
+    width:15px;
+    height:15px;
+}
+
+
+
+/*..............login page css..............*/
+
+
+.bg-login{
+    padding:50px 0px;
+}
+
+.bg-login .new-row{
+    width:50%;
+    margin:15% auto;
+
+}
+
+.login-img{
+    width:100%;
+    height:100%;
+}
+.login-img img{
+    width:100%;
+    height:100%;
+}
+.bg-login .row .col-lg-6{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.login-form{
+    background-color: #f3f3f3;
+    padding:50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
+}
+.login-form h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform:capitalize;
+    text-align:center;
+    margin-bottom:25px;
+}
+.login-line{
+    color: gray;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+.login-line span {
+    background: #f3f3f3;
+    padding: 0 10px;
+}
+.forget{
+    text-transform:capitalize;
+}
+.forget a{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #ffba33;
+}
+
+.login-btn{
+    text-align:center;
+    margin:25px 0px;
+}
+.login-btn button:after{
+  content:"";
+  position :absolute;
+  width:24px;
+  height:24px;
+  top:0px;
+  left:0px;
+  border-top:2px solid black;
+  border-left:2px solid black;
+  transition:all 0.25s;
+}
+
+.login-btn button:hover:before ,.login-btn button:hover:after{
+  width:100%;
+  height:100%;
+}
+.login-btn button:hover{
+    background-color: unset;
+    color: black;
+}
+.login-btn button:before{
+  content:"";
+  position :absolute;
+  width:24px;
+  height:24px;
+  bottom:0px;
+  right:0px;
+  border-bottom:2px solid black;
+  border-right:2px solid black;
+  transition:all 0.30s;
+}
+
+.login-btn button{
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    transition:all 0.5s ease;
+    background-color:black;
+    color:white;
+    position:relative;
+    margin:0px 14px;
+}
+.login-form .re-btn{
+    margin: 25px 0px;
+    text-align: center;
+   
+}
+.login-form .re-name input{
+    background-color:white;
+}
+.ac-link{
+    text-align:center;
+}
+.ac-link a{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #ffba33;
+}
+
+
+
+
+/*...............change-password css...........*/
+
+.bg-change{
+    padding:50px 0px;
+}
+
+.change-password{
+    width: 50%;
+    margin: 15% auto;
+    box-shadow: 0px 0px 30px 1px rgb(0 0 0 / 20%);
+    border-radius:8px;
+    background-image:url(../image/change-img1.jpg);
+    background-size:cover;
+}
+
+.password-title{
+    background-color:black;
+    color:white;
+    padding: 18px 0px;
+    position:relative;
+    border-radius: 8px 8px 0px 0px;
+}
+.password-title h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform:capitalize;
+    text-align:center;
+    margin: 18px 0px 0px;
+}
+.password-title span{
+    position: absolute;
+    top: -50%;
+    left: 45%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    outline: 2px solid white;
+}
+.change-name{
+    margin:20px 0px;
+}
+.change-name label{
+    text-transform:capitalize;
+    font-size:18px;
+    font-weight:600;
+    color:white;
+}
+.change-name input{
+    width: 100%;
+    height: 55px;
+    border-radius:5px;
+    background-color: #F6F7F9;
+    border: none;
+    font-size: 20px;
+    font-weight:600;
+    text-transform: capitalize;
+    padding: 0px 18px;
+    position:relative;
+}
+
+
+.change-name input:focus{
+    outline:none;
+    border: 2px solid #ffba33;
+}
+
+.change-btn{
+    margin-top:25px;
+    text-align:center;
+}
+.change-btn button{
+     width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    transition:all 0.5s ease;
+    background-color:#ffba33;
+    color:white;
+    position:relative;
+    margin:0px 14px;
+}
+.change-password form{
+    padding: 40px 20px;
+}
+
+
+/*...............pop-up form css................*/
+
+.pop-up-form{
+    background: #17191f;
+    padding:3rem 2rem!important;
+    border-radius:6px;
+}
+
+.inner-form h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform:capitalize;
+    text-align:center;
+    margin-bottom:25px;
+    color:white;
+}
+
+.pop-up-img{
+    width:100%;
+}
+.pop-up-img img{
+    width:100%;
+}
+.login-modal .modal-dialog{
+    max-width:700px!important;
+    border-radius:8px;
+    margin: 10% auto;
+}
+.login-modal .modal-content{
+    border-radius:8px!important;
+}
+
+.pop-up-btn{
+    text-align:center;
+    margin:15px 0px;
+    width:100%;
+    position:relative;
+}
+.pop-up-btn button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    transition:all 0.5s ease;
+    background-color:#ffba33;
+    color:black;
+    position:relative;
+}
+
+.pop-up-btn button:focus{
+    outline:none;
+}
+
+.pop-up-forget{
+    text-align: center;
+    margin: 15px 0px;
+    width: 100%;
+    display: block;
+}
+
+.pop-up-forget a{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color:white;
+    text-transform:capitalize;
+    text-decoration:none;
+}
+.pop-up-forget a:hover{
+    color:#ffba33;
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pu-name input{
+    width: 100%;
+    height:45px;
+    border-radius:5px;
+    background-color: #F6F7F9;
+    border: none;
+    margin:16px 0px;
+    font-size: 20px;
+    font-weight:600;
+    text-transform: capitalize;
+    padding: 0px 18px;
+    position:relative;
+}
+.pu-name input:focus{
+    outline:none;
+    border:none;
+    background-color:white;
+    border:2px solid #ffba33;
+}
+.pop-up-form .pu-close-btn button{
+    position: absolute;
+    top: -7%;
+    right: -7%;
+    color:#ffba33;
+    background-color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
+
+
+/*..............studentalumni css.............*/
+
+.bg-student{
+    padding:50px 0px;
+}
+
+.student-title{
+    margin: 0 auto 35px;
+}
+
+.student-title h3{
+    font-size: 36px;
+    text-transform: capitalize;
+    padding-bottom: 17px;
+    position: relative;
+    margin: -8px 0 0;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.student-box{
+    position:relative;
+    border-radius:8px;
+    padding:20px 0px;
+    transition:all 0.5s ease;
+    margin:20px 0px;
+}
+
+.student-box:after{
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    right: 0px;
+    background: #fff;
+    content: "";
+    bottom: 0;
+    z-index: -1;
+    border-radius: 7px;
+    transition:all 0.5s ease;
+    box-shadow: 0 0 24px rgb(0 0 0 / 24%);
+}
+
+.student-box:hover:after{
+    background-color:#ffba33;
+}
+
+.student-img{
+    width: 210px;
+    height:210px;
+    object-fit: cover;
+    border-radius:7px;
+    margin:auto;
+    transition:all 0.5s ease;
+    overflow:hidden;
+}
+
+.student-img img{
+    width:100%;
+    border-radius:8px;
+    height: 210px !important;
+}
+.student-detail{
+    padding: 15px 0px;
+    text-align: center;
+}
+.student-detail h4{
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 12px;
+}
+.student-detail h6{
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 8px 0px;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
